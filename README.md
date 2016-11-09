@@ -50,6 +50,12 @@ fs.readFile('example2.txt', errc(function (data) {
 });
 ```
 
+Examples
+--------
+For examples see
+[node-errc-example](https://github.com/rsp/node-errc-example)
+on GitHub.
+
 Issues
 ------
 For any bug reports or feature requests
