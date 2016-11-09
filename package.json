@@ -1,0 +1,24 @@
+{
+  "name": "errc",
+  "version": "0.0.0",
+  "description": "A different style of callbacks experiment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsp/node-errc.git"
+  },
+  "keywords": [
+    "error",
+    "callback",
+    "callbacks"
+  ],
+  "author": "Rafał Pocztarski <r.pocztarski@gmail.com> (https://pocztarski.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rsp/node-errc/issues"
+  },
+  "homepage": "https://github.com/rsp/node-errc#readme"
+}
