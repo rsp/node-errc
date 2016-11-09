@@ -1,6 +1,6 @@
 {
   "name": "errc",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A different style of callbacks experiment",
   "main": "index.js",
   "scripts": {
