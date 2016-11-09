@@ -29,6 +29,27 @@ A different style of callbacks experiment written for an answer on Stack Overflo
 
 * [Why does node prefer error-first callback?](https://stackoverflow.com/questions/40511513/why-does-node-prefer-error-first-callback/40512067#40512067)
 
+It allows you to register callbacks to standard Node functions that expect error-fist callback style, but use a different convention inside of your callback - the first argument to your callback will either be an instance of `Error` on failure (with its `message` field set to the original error) or the first non-error argument on success.
+
+Installation
+------------
+Install to use in your Node project, updating the dependencies in package.json:
+```sh
+npm install errc --save
+```
+
+Usage
+-----
+```js
+var errc = require('errc');
+var fs = require('fs');
+
+fs.readFile('example2.txt', errc(function (data) {
+  // here data is either an instance of Error on failure
+  // or a real data on success
+});
+```
+
 Issues
 ------
 For any bug reports or feature requests
