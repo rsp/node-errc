@@ -1,6 +1,12 @@
 # errc
 
 [![npm install][install-img]][npm-url]
+<br>
+[![Build Status][travis-img]][travis-url]
+[![Dependencies Status][david-img]][david-url]
+[![Known Vulnerabilities][snyk-img]][snyk-url]
+[![Downloads][downloads-img]][stats-url]
+[![License][license-img]][license-url]
 
 [npm-url]: https://www.npmjs.com/package/errc
 [github-url]: https://github.com/rsp/node-errc
