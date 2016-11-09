@@ -31,6 +31,10 @@ A different style of callbacks experiment written for an answer on Stack Overflo
 
 It allows you to register callbacks to standard Node functions that expect error-fist callback style, but use a different convention inside of your callback - the first argument to your callback will either be an instance of `Error` on failure (with its `message` field set to the original error) or the first non-error argument on success.
 
+For code examples see
+[node-errc-example](https://github.com/rsp/node-errc-example)
+on GitHub.
+
 Installation
 ------------
 Install to use in your Node project, updating the dependencies in package.json:
@@ -49,12 +53,6 @@ fs.readFile('example2.txt', errc(function (data) {
   // or a real data on success
 });
 ```
-
-Examples
---------
-For examples see
-[node-errc-example](https://github.com/rsp/node-errc-example)
-on GitHub.
 
 Issues
 ------
