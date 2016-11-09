@@ -25,4 +25,3 @@ var callback = errc(function(data) {
 
 callWithError(callback);
 callWithData(callback);
-
